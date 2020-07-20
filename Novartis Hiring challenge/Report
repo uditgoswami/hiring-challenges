@@ -1,0 +1,23 @@
+PROBLEM STATEMENT: 
+Predict if the server will be hacked.
+
+Description:
+A company wants to predict the hack of their server. We are provided with userID, and unidentified columns marked from "X1-X16". We have to predict the target Variable "Multiple offense"
+which indicates the status of hack. 1 is a positive hack and 0 is a negative hack.
+
+Data:
+
+    Test.csv
+    Train.csv
+
+Expected output:
+
+A csv file containing USERID and "Mutliple Offense" columns
+
+Evaluation Criteria
+
+score = recall_score(actual values, predicted values)
+
+
+Analysis:
+This is a problem of Logistic regression type and classification. I used Decision tree Classsifier and got a recall score 0f 98%. It was a fairly easy excercise. Inspite of scoring 98%, I was not selected due to lack of experience. That's got to hurt!
