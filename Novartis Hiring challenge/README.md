@@ -1,2 +1,2 @@
 # hiring-challenges
-Solutons for the hirnig challenges attempted
+Novartis Hiring challenge solution on Hackerearth
